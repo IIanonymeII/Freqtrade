@@ -1,0 +1,37 @@
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destination
+Task exception was never retrieved
+future: <Task finished coro=<DiscordWebSocket.from_client() done, defined at /home/ec2-user/.local/lib/python3.7/site-packages/discord/gateway.py:299> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/discord/gateway.py", line 306, in from_client
+    socket = await client.http.ws_connect(gateway)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/discord/http.py", line 132, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/aiohttp/client.py", line 763, in _ws_connect
+    proxy_headers=proxy_headers,
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/aiohttp/client.py", line 619, in _request
+    break
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Task exception was never retrieved
+future: <Task finished coro=<DiscordWebSocket.from_client() done, defined at /home/ec2-user/.local/lib/python3.7/site-packages/discord/gateway.py:299> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/discord/gateway.py", line 306, in from_client
+    socket = await client.http.ws_connect(gateway)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/discord/http.py", line 132, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/aiohttp/client.py", line 763, in _ws_connect
+    proxy_headers=proxy_headers,
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/aiohttp/client.py", line 619, in _request
+    break
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError

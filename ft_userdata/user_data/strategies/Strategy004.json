@@ -1,0 +1,25 @@
+{
+  "strategy_name": "Strategy004",
+  "params": {
+    "buy": {},
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.327,
+      "465": 0.244,
+      "1109": 0.087,
+      "1827": 0
+    },
+    "stoploss": {
+      "stoploss": -0.343
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.081,
+      "trailing_stop_positive_offset": 0.18,
+      "trailing_only_offset_is_reached": true
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-03-17 09:56:51.012069+00:00"
+}
